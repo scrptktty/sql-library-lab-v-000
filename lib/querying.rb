@@ -28,6 +28,7 @@ end
 def select_series_title_with_most_human_characters
   "SELECT series.title, SUM(characters.species) as species_number FROM series
   JOIN characters ON characters.series_id = series.id
+  GROUP BY series.title
   ORDER BY species_number DESC
   LIMIT 1"
 end
