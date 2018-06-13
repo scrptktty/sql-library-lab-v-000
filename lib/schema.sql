@@ -27,3 +27,9 @@ CREATE TABLE characters (
     name TEXT,
     age INTEGER
 );
+
+CREATE TABLE character_books (
+  id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER
+);
