@@ -15,3 +15,15 @@ CREATE TABLE authors (
     name TEXT,
     age INTEGER
 );
+
+CREATE TABLE books (
+  id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER
+);
+
+CREATE TABLE characters (
+  id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER
+);
